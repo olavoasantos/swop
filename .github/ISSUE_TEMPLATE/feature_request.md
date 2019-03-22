@@ -6,15 +6,27 @@ labels: feature
 assignees: ''
 
 ---
+<!--
+**DISCLAIMER** If your issue fails to follow this layout it will be closed.
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+RULES:
+- Naming convention should be: FEATURE: {Brief description of the feature}
+- Topics followed by an asterisk (*) are required and SHOULD NOT be removed
+- Topics without asterisk are optional and, if empty, should be deleted
+-->
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+## Description*
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+<!-- A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] -->
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+## Ideal solution*
+
+<!-- A clear and concise description of what you want to happen. -->
+
+## Alternative considered
+
+<!-- A clear and concise description of any alternative solutions or features you've considered. -->
+
+## Other info
+
+<!-- Add any other context about the problem here. -->

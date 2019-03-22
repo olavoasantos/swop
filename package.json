@@ -1,0 +1,42 @@
+{
+  "name": "swop",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json",
+    "test": "jest --config jestconfig.json",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "docs:dev": "yarn docz dev",
+    "docs:build": "docz build --base /node-factory/",
+    "docs:deploy": "yarn docs:build && gh-pages -d .docz/dist"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "author": {
+    "name": "Olavo Amorim Santos",
+    "email": "olavo.a.santos@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olavoasantos/swop.git"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "docz": "^0.13.7",
+    "docz-theme-default": "^0.13.7",
+    "gh-pages": "^2.0.1",
+    "husky": "^1.3.1",
+    "jest": "^24.5.0",
+    "prettier": "^1.16.4",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.14.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.4000"
+  }
+}
